@@ -1,6 +1,8 @@
 # Next Generation Clothing Finder
 This product is a one-stop shop that gathers data from popular clothing sites and presents the products to its users in a way that is convenient to the users. From predefined clothing categories, the user is able to select the gender and subcategories to display the results. The user can also sort the results by name, price, sale price, store and brand, in both ascending and descending order. If the user wishes to add certain products into a favorites list, each product has an “add to favorites” button that, when pressed, will add the item to a favorites list, which can be accessed in the menu bar. Finally, the user can give feedback to the developers. 
 
+**I only included the files that I worked on / are required for running the project.**
+
 # Table of Contents
 * [Requirements and Installation](#req)
 * [Features](#features)
