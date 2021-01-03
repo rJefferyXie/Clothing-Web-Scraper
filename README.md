@@ -22,7 +22,7 @@ Or if you are familiar with cloning (Using PyCharm for this example):
     Step 1: Start a new project in PyCharm and click on VCS --> Get from Version Control.
     Step 2: Enter the following url: https://git.cs.usask.ca/CMPT370-01-2020/group6.git and hit clone.
     Step 3: Make sure you have a python interpreter selected, (Python 3.6 or above recommended.)
-    Step 3: Enter this command into the terminal to install all required modules "pip install -r requirements.txt"
+    Step 3: Enter this command into the terminal to install required modules "pip install -r requirements.txt"
     Step 4: You can now run our program by simply running the main_GUI file in the group 6 directory.
 
 _Required Modules_
