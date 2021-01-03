@@ -1,29 +1,14 @@
-**Name**
-
-Next Generation Clothing Finder
-
-**Description**
-
+# Next Generation Clothing Finder
 This product is a one-stop shop that gathers data from popular clothing sites and presents the products to its users in a way that is convenient to the users. From predefined clothing categories, the user is able to select the gender and subcategories to display the results. The user can also sort the results by name, price, sale price, store and brand, in both ascending and descending order. If the user wishes to add certain products into a favorites list, each product has an “add to favorites” button that, when pressed, will add the item to a favorites list, which can be accessed in the menu bar. Finally, the user can give feedback to the developers. 
 
-_List of Features_
+# Table of Contents
+* [Requirements and Installation](#req)
+* [Features](#features)
+* [Websites](#web)
+* [Authors and Acknowledgement](#ack)
+* [Demo](#demo)
 
-    - A sorting feature (Can sort alphabetically, by price, and by brand. Also included reverse sorting.)
-    - A search engine that takes in three parameters (Gender, Category, Subcategory), and returns all data that matches.
-    - An image for each result that can be clicked to be brought right to the item's website.
-    - Users can send feedback to our group email.
-    - Users can add and remove items from list of favorites.
-
-_List of Websites_
-
-    - Nike
-    - Arc'teryx
-    - H&M
-    - Billabong
-    - Bluenotes
-
-**Requirements and Installation**
-
+# Requirements and Installation <a name="req"></a>
 (This was created in the PyCharm IDE, with Python 3.4 or higher)
 
 Ensure that you have Python version 3.x and the following modules installed via the following commands.
@@ -73,7 +58,21 @@ Please ensure that your default browser is set to Chrome, Opera, or Firefox. Mic
 - Go to the terminal, and enter pytest to run our test suite.
 - The program should run the tests for you automatically, showing which tests succeeded and which tests failed. 
 
-**Authors and Acknowledgement**
+# Features <a name="features"></a>
+* A sorting feature (Can sort alphabetically, by price, and by brand. Also included reverse sorting.)
+* A search engine that takes in three parameters (Gender, Category, Subcategory), and returns all data that matches.
+* An image for each result that can be clicked to be brought right to the item's website.
+* Users can send feedback to our group email.
+* Users can add and remove items from list of favorites.
+
+# List of Websites <a name="web"></a>
+* Nike
+* Billabong
+* H&M
+* Arc'teryx
+* Bluenotes
+
+# Authors and Acknowledgement <a name="ack"></a>
 
 _List of Developers_
 
@@ -83,7 +82,7 @@ _List of Developers_
     Enhan Zhao
     Manaf Bargash
 
-**Demo**
+# Demo <a name="demo"></a>
 
 _Search Screen_
 
