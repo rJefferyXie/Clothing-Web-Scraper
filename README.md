@@ -62,6 +62,7 @@ Please ensure that your default browser is set to Chrome, Opera, or Firefox. Mic
     A sorting feature (Can sort alphabetically, by price, and by brand. Also included reverse sorting.)
     A search engine that takes in gender, category, subcategory, and returns all data that matches.
     An image for each result that can be clicked to be brought right to the item's website.
+    A storage system that connects to google drive so users can run the program on different machines.
     Users can send feedback to our group email.
     Users can add and remove items from list of favorites.
 
