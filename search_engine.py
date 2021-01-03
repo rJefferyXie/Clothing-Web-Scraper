@@ -2,7 +2,6 @@ import os.path
 import retrieve_files as rf
 import time
 
-
 # CMPT 370 Group 6 - Search Engine
 # This file takes in user input for gender, category, and subcategory from the GUI
 # and returns all items that match all three of these filters in a list format.

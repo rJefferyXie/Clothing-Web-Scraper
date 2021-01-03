@@ -39,15 +39,6 @@ def main():
     root.geometry("900x600")
     model_main.set_view_root(root)
 
-    # Create menu
-    # menu = tk.Menu(root)
-    # root.config(menu=menu)
-    #
-    # # Create menu items
-    # main_menu = tk.Menu(menu)
-    # menu.add_cascade(label="Options", menu=main_menu)
-    #main_menu.add_command(label="New Search", command=menu_new_search())
-
     # Create a frame
     main_frame = tk.Frame(root)
     main_frame.pack(fill=tk.BOTH, expand=1)

@@ -42,7 +42,6 @@ def search(gender, category, subcategory):
         if subcategory.lower() in current_line.lower() or subcategory[0:-1].lower() in current_line.lower():
             results.append(current_line)
 
-
     return results
 
 

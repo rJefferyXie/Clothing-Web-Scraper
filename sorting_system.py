@@ -30,7 +30,6 @@ def retrieve_data_as_csv(results_list):
     return filename
 
 
-# function to sort generated csv file
 def sort_results(filename, sorting_key, reversed):
     """
 
@@ -61,7 +60,7 @@ def sort_results(filename, sorting_key, reversed):
         except:
             pass
 
-    # sorted created list of lists
+    # sorted list of lists
     sale_list = [result for result in initial_list if result[3] != "N/A"]
     no_sale_list = [result for result in initial_list if result[3] == "N/A"]
     if sorting_key == "Sale Price":
@@ -70,22 +69,10 @@ def sort_results(filename, sorting_key, reversed):
     else:
         sortedlist = sorted(initial_list, key=operator.itemgetter(key_indices[sorting_key]), reverse=reversed)
 
-    # Divide
-
     return sortedlist
 
-    # convert back into csv
-    # with open("results.csv", "w") as file:
-    #     for item in range(0, len(sortedlist)):
-    #         for i in sortedlist[item]:
-    #             file.write(i)
-    #             file.write(", ")
-    #         file.write("\n")
 
-
-# main
 def main():
-    # data coming from
     file = retrieve_data_as_csv(sample_input)
     sort_results(file, "Price", True)
 
