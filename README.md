@@ -46,8 +46,8 @@ _Required Modules_
     pip install shutil
 
 **Setting up the Project**
-- If you downloaded our source folder, open the folder with an IDE or coding program.
-- With PyCharm, create a new project with the source folder as the project.
+* If you downloaded our source folder, open the folder with an IDE or coding program.
+* With PyCharm, create a new project with the source folder as the project.
 
 **Running**
 
@@ -55,27 +55,24 @@ The actual running of our program starts from the main_GUI file. Run the main_GU
 Please ensure that your default browser is set to Chrome, Opera, or Firefox. Microsoft Edge and Internet Explorer add additional characters to the url when opening links associated with products and the webpage will not be opened correctly.
 
 **Tests**
-- Go to the terminal, and enter pytest to run our test suite.
-- The program should run the tests for you automatically, showing which tests succeeded and which tests failed. 
+* Go to the terminal, and enter pytest to run our test suite.
+* The program should run the tests for you automatically, showing which tests succeeded and which tests failed. 
 
 # Features <a name="features"></a>
-* A sorting feature (Can sort alphabetically, by price, and by brand. Also included reverse sorting.)
-* A search engine that takes in three parameters (Gender, Category, Subcategory), and returns all data that matches.
-* An image for each result that can be clicked to be brought right to the item's website.
-* Users can send feedback to our group email.
-* Users can add and remove items from list of favorites.
+    A sorting feature (Can sort alphabetically, by price, and by brand. Also included reverse sorting.)
+    A search engine that takes in three parameters (Gender, Category, Subcategory), and returns all data that matches.
+    An image for each result that can be clicked to be brought right to the item's website.
+    Users can send feedback to our group email.
+    Users can add and remove items from list of favorites.
 
 # List of Websites <a name="web"></a>
-* Nike
-* Billabong
-* H&M
-* Arc'teryx
-* Bluenotes
+    Nike
+    Billabong
+    H&M
+    Arc'teryx
+    Bluenotes
 
 # Authors and Acknowledgement <a name="ack"></a>
-
-_List of Developers_
-
     Jeffery Xie
     Ana-Pietje Du Plessis
     Henry Nguyen
