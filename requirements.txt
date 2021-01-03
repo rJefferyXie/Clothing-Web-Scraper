@@ -1,0 +1,14 @@
+beautifulsoup4==4.9.3
+google-api-core==1.23.0
+google-api-python-client==1.12.8
+google-auth==1.23.0
+google-auth-httplib2==0.0.4
+google-auth-oauthlib==0.4.2
+lxml==4.6.1
+oauth2client==4.1.3
+oauthlib==3.1.0
+Pillow==8.0.1
+pygdrive3==0.7.0
+pytest==6.1.2
+requests==2.25.0
+requests-oauthlib==1.3.0
